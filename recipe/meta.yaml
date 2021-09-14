@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
-{% set version = "2.0.2" %}
-{% set sha256 = "104475dc4d57bbae49017aea16fffbb763204fa2d6a70f1f3cc79962c1a383a4" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "7ae5eda089d393ca01658b550df24913cbbbdd34e9e6dedc1cea747485ae0c04" %}
 
 package:
   name: {{ name|lower }}
