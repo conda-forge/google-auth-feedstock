@@ -5,7 +5,7 @@ Home: https://github.com/googleapis/google-auth-library-python
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-auth-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-auth-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google authentication library for Python
 
@@ -21,8 +21,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5583&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-auth-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5583&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-auth-feedstock?branchName=main">
       </a>
     </td>
   </tr>
