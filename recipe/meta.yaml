@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
-{% set version = "2.6.0" %}
-{% set sha256 = "ad160fc1ea8f19e331a16a14a79f3d643d813a69534ba9611d2c80dc10439dad" %}
+{% set version = "2.6.2" %}
+{% set sha256 = "60d449f8142c742db760f4c0be39121bc8d9be855555d784c252deaca1ced3f5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
