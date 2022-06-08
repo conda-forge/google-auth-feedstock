@@ -12,14 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
-    - setuptools
+    - python >=3.6
     - pip
 
   run:
@@ -27,11 +26,13 @@ requirements:
     - cachetools >=2.0.0,<6.0
     - pyasn1-modules >=0.2.1
     - rsa >=3.1.4,<5
-    - setuptools >=40.3.0
     - six >=1.9.0
+    # aiohttp extra
     - aiohttp >=3.6.2,<4.0.0dev
     - requests >=2.20.0,<3.0.0dev
+    # pyopenssl extra
     - pyopenssl >=20.0.0
+    # reauth extra
     - pyu2f >=0.1.5
 
 test:
@@ -41,7 +42,7 @@ test:
   imports:
     - google.auth
   commands:
-    - python -m pip check
+    - pip check
 
 about:
   home: https://github.com/googleapis/google-auth-library-python
