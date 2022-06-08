@@ -155,4 +155,5 @@ Feedstock Maintainers
 * [@parthea](https://github.com/parthea/)
 * [@theacodes](https://github.com/theacodes/)
 * [@tswast](https://github.com/tswast/)
+* [@xylar](https://github.com/xylar/)
 
