@@ -25,6 +25,7 @@ requirements:
     - pyasn1-modules >=0.2.1
     - rsa >=3.1.4,<5
     - six >=1.9.0
+    - urllib3 <2.0
     # aiohttp and requests extras
     - aiohttp >=3.6.2,<4.0.0dev
     - requests >=2.20.0,<3.0.0dev
