@@ -1,5 +1,5 @@
 {% set name = "google-auth" %}
-{% set version = "2.22.0" %}
+{% set version = "2.23.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-auth-{{ version }}.tar.gz
-  sha256: 164cba9af4e6e4e40c3a4f90a1a6c12ee56f14c0b4868d1ca91b32826ab334ce
+  sha256: 753a26312e6f1eaeec20bc6f2644a10926697da93446e1f8e24d6d32d45a922a
 
 build:
   number: 0
