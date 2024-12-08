@@ -13,11 +13,11 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python {{ python_min }}.*
+    - python {{ python_min }}
     - pip
     - setuptools
 
@@ -37,7 +37,7 @@ requirements:
 
 test:
   requires:
-    - python ={{ python_min }}
+    - python {{ python_min }}
     - pip
   imports:
     - google.auth
