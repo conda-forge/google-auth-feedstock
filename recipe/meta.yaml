@@ -1,5 +1,5 @@
 {% set name = "google-auth" %}
-{% set version = "2.42.0" %}
+{% set version = "2.42.1" %}
 {% set python_min = python_min|default("3.7") %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9bbbeef3442586effb124d1ca032cfb8fb7acd8754ab79b55facd2b8f3ab2802
+  sha256: 30178b7a21aa50bffbdc1ffcb34ff770a2f65c712170ecd5446c4bef4dc2b94e
 
 build:
   noarch: python
