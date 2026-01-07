@@ -1,6 +1,6 @@
 {% set name = "google-auth" %}
 {% set version = "2.47.0" %}
-{% set python_min = python_min|default("3.7") %}
+{% set python_min = python_min|default("3.8") %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,6 @@ requirements:
 
   run:
     - python >={{ python_min }}
-    - cachetools >=2.0.0,<7.0
     - pyasn1-modules >=0.2.1
     - rsa >=3.1.4,<5
     # aiohttp and requests extras
