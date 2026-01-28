@@ -24,8 +24,15 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pyasn1-modules >=0.2.1
-    - rsa >=3.1.4,<5
     - cryptography >=38.0.3
+    - rsa >=3.1.4,<5
+    # aiohttp and requests extras
+    - aiohttp >=3.6.2,<4.0.0
+    - requests >=2.20.0,<3.0.0
+    # pyopenssl extra
+    - pyopenssl >=20.0.0
+    # reauth extra
+    - pyu2f >=0.1.5
 tests:
   - python:
       imports:
