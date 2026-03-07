@@ -25,7 +25,6 @@ requirements:
     - python >=${{ python_min }}
     - pyasn1-modules >=0.2.1
     - cryptography >=38.0.3
-    - rsa >=3.1.4,<5
     # aiohttp and requests extras
     - aiohttp >=3.6.2,<4.0.0
     - requests >=2.20.0,<3.0.0
@@ -33,6 +32,8 @@ requirements:
     - pyopenssl >=20.0.0
     # reauth extra
     - pyu2f >=0.1.5
+    # rsa extra
+    - rsa >=3.1.4,<5
 tests:
   - python:
       imports:
@@ -41,13 +42,13 @@ tests:
       python_version: ${{ python_min }}.*
 
 about:
-  homepage: https://github.com/googleapis/google-auth-library-python
+  homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
   summary: Google authentication library for Python
   description: This library provides the ability to authenticate to Google APIs using various methods. It also provides integration with several HTTP libraries.
   license: Apache-2.0
   license_file: LICENSE
-  documentation: https://google-auth.readthedocs.io/en/latest/
-  repository: https://github.com/googleapis/google-auth-library-python
+  documentation: https://googleapis.dev/python/google-auth/latest/index.html
+  repository: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 
 extra:
   recipe-maintainers:
