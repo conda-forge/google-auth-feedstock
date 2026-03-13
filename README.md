@@ -3,15 +3,15 @@ About google-auth-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-auth-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/google-auth-library-python
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 
 Package license: Apache-2.0
 
 Summary: Google authentication library for Python
 
-Development: https://github.com/googleapis/google-auth-library-python
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 
-Documentation: https://google-auth.readthedocs.io/en/latest/
+Documentation: https://googleapis.dev/python/google-auth/latest/index.html
 
 This library provides the ability to authenticate to Google APIs using various methods. It also provides integration with several HTTP libraries.
 
