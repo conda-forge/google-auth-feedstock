@@ -26,7 +26,7 @@ requirements:
     - pyasn1-modules >=0.2.1
     - cryptography >=38.0.3
     # aiohttp and requests extras
-    - aiohttp >=3.6.2,<4.0.0
+    - aiohttp >=3.8.0,<4.0.0
     - requests >=2.20.0,<3.0.0
     # pyopenssl extra
     - pyopenssl >=20.0.0
