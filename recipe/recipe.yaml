@@ -24,13 +24,16 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pyasn1-modules >=0.2.1
+    # tightest of upstream's floors (python >=3.14)
     - cryptography >=41.0.5
+    # from the aiohttp extra
+    # tightest of upstream's floors (python >=3.14)
     # aiohttp and requests extras
     - aiohttp >=3.9.0,<4.0.0
     - requests >=2.30.0,<3.0.0
-    # reauth extra
+    # from the reauth extra
     - pyu2f >=0.1.5
-    # rsa extra
+    # from the rsa extra
     - rsa >=4.0.0,<5
 tests:
   - python:
