@@ -1,6 +1,6 @@
 context:
   name: google-auth
-  version: "2.56.3"
+  version: "2.57.0"
   sdist_name: google_auth
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ sdist_name }}-${{ version }}.tar.gz
-  sha256: 40e229fc901f0a305b553050e5fce562d509bee0435be053abfa91582b51b90c
+  sha256: 9b4f96d6a1feb5f7201231f47cfb3de08d8f176f8a61f9e461555116e95a8789
 
 build:
   number: 0
@@ -24,13 +24,15 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pyasn1-modules >=0.2.1
+    # tightest of upstream's floors (python >=3.14)
     - cryptography >=41.0.5
-    # aiohttp and requests extras
+    # from the aiohttp extra
+    # tightest of upstream's floors (python >=3.14)
     - aiohttp >=3.9.0,<4.0.0
     - requests >=2.30.0,<3.0.0
-    # reauth extra
+    # from the reauth extra
     - pyu2f >=0.1.5
-    # rsa extra
+    # from the rsa extra
     - rsa >=4.0.0,<5
 tests:
   - python:
