@@ -1,6 +1,6 @@
 context:
   name: google-auth
-  version: "2.58.1"
+  version: "2.59.0"
   sdist_name: google_auth
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ sdist_name }}-${{ version }}.tar.gz
-  sha256: 1480461d8b2347e679af758f4003700ea79a59b603c9134e18bfa95e8004ee70
+  sha256: eb32f44f89f6b577947ebee5887c1db46e6b1a278889ba369a88179643f32240
 
 build:
   number: 0
