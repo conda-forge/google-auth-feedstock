@@ -32,8 +32,6 @@ requirements:
     - requests >=2.30.0,<3.0.0
     # from the reauth extra
     - pyu2f >=0.1.5
-    # from the rsa extra
-    - rsa >=4.0.0,<5
 tests:
   - python:
       imports:
